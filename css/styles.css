@@ -1,0 +1,84 @@
+.container {
+  width: 900px;
+  margin: 10px auto 10px auto;
+  font-family: sans-serif;
+  background-color: #F2F1ED;
+  padding: 25px;
+}
+
+#herName {
+  float: left;
+}
+
+#navLinks li {
+  float: right;
+}
+
+ul::after {
+  clear:both;
+  content: "";
+  display: table;
+}
+
+li {
+  list-style: none;
+}
+
+.column1 {
+  width: 575px;
+  float: left;
+}
+
+.column2 {
+  width: 275px;
+  float: right;
+}
+
+img {
+  width: 300px;
+  margin: -3px;
+}
+
+.mainSection::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.navbar {
+  padding-bottom: 0;
+}
+
+#herName {
+  font-family: 'Lobster Two', cursive;
+  font-size: 50px;
+  line-height: 30px;
+  margin-top: 3px;
+  padding-left: 0;
+}
+
+#navLinks li {
+  margin-left: 20px;
+}
+
+#navLinks {
+  position: relative;
+}
+
+.navDefault {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+}
+
+#theChevron {
+  position: absolute;
+  right: 75px;
+  bottom: 35px;
+  font-size: 25px;
+  color: #C2786B;
+}
+
+#about {
+  font-family: 'Lobster Two', cursive;
+  font-size: 25px;
+}
